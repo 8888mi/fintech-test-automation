@@ -1,0 +1,7 @@
+{
+  "account_id": "ACC-FD9D601E4B3F",
+  "amount_minor": 1000,
+  "currency": "USD",
+  "description": "",
+  "idempotency_key": "short"
+}

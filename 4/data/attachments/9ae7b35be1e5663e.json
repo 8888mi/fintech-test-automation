@@ -1,0 +1,11 @@
+{
+  "event_id": "a839c6a9-4d95-4e44-9e4a-35450cb86114",
+  "event_type": "payment.captured",
+  "payment_id": "pay_0a6017f515c94a99",
+  "account_id": "ACC-40DEC003F19A",
+  "amount_minor": 6400,
+  "currency": "USD",
+  "status": "CAPTURED",
+  "occurred_at": "2026-09-28T19:44:22.631045Z",
+  "schema_version": 1
+}

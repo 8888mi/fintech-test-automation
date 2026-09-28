@@ -1,0 +1,1 @@
+{"payment_id":"pay_f01775b4ee844a78","account_id":"ACC-E93FA36EDF50","amount_minor":25000,"currency":"USD","status":"AUTHORIZED","idempotency_key":"idem-012f0c1a89874050b78b45d9ebf53c97","description":"","rejection_reason":null,"created_at":"2026-09-28T19:44:20.367848Z","updated_at":"2026-09-28T19:44:20.367850Z"}

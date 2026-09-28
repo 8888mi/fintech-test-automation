@@ -1,0 +1,1 @@
+[{"payment_id":"pay_66f46edebb284374","account_id":"ACC-BBE7CF6CFB31","amount_minor":10000,"currency":"USD","status":"AUTHORIZED","idempotency_key":"idem-a91d2c32ad6b4866a5b20bd9e3941fb0","description":"","rejection_reason":null,"created_at":"2026-09-28T19:44:20.367579Z","updated_at":"2026-09-28T19:44:20.367582Z"}]

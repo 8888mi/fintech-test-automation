@@ -1,0 +1,1 @@
+{"detail":[{"type":"string_too_short","loc":["body","idempotency_key"],"msg":"String should have at least 8 characters","input":"short","ctx":{"min_length":8}}]}

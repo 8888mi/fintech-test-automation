@@ -1,0 +1,1 @@
+{"payment_id":"pay_790e8fb6a7744894","account_id":"ACC-F608082B5001","amount_minor":1500,"currency":"USD","status":"AUTHORIZED","idempotency_key":"idem-9e2b6d12a4d44b82836e9447c7559f2d","description":"","rejection_reason":null,"created_at":"2026-09-28T19:44:20.415136Z","updated_at":"2026-09-28T19:44:20.415140Z"}

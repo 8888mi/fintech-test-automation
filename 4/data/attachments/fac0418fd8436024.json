@@ -1,0 +1,11 @@
+{
+  "event_id": "d746e40c-a30d-4314-8eef-ac8bef1e5d74",
+  "event_type": "payment.created",
+  "payment_id": "pay_19cbf9411f83486e",
+  "account_id": "ACC-95D8FF7664DC",
+  "amount_minor": 18500,
+  "currency": "USD",
+  "status": "AUTHORIZED",
+  "occurred_at": "2026-09-28T19:44:25.601562Z",
+  "schema_version": 1
+}

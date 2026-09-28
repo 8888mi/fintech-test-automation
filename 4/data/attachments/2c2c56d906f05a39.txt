@@ -1,0 +1,2 @@
+19:44:20 INFO    framework.api.client | GET http://localhost:8000/api/v1/payments/pay_doesnotexist000
+19:44:20 INFO    framework.api.client | -> 404 in 1 ms

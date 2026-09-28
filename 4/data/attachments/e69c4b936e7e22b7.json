@@ -1,0 +1,11 @@
+{
+  "event_id": "edfaf331-816a-42fa-8570-eaabf1b3dc06",
+  "event_type": "payment.created",
+  "payment_id": "pay_bb9bd4fd4f764f44",
+  "account_id": "ACC-C371A7A1984A",
+  "amount_minor": 11000,
+  "currency": "USD",
+  "status": "AUTHORIZED",
+  "occurred_at": "2026-09-28T19:44:23.419558Z",
+  "schema_version": 1
+}

@@ -1,0 +1,2 @@
+INFO     framework.kafka_client.consumer:consumer.py:88 Consumer qa-readonly-70380e400a1d assigned: [('payments.events', 0)]
+INFO     framework.kafka_client.consumer:consumer.py:105 Seeked to end of payments.events

@@ -1,0 +1,2 @@
+19:44:24 INFO    framework.kafka_client.consumer | Consumer qa-readonly-70380e400a1d assigned: [('payments.events', 0)]
+19:44:25 INFO    framework.kafka_client.consumer | Seeked to end of payments.events

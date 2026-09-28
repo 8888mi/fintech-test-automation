@@ -1,0 +1,1 @@
+{"payment_id":"pay_bb9bd4fd4f764f44","account_id":"ACC-C371A7A1984A","amount_minor":11000,"currency":"USD","status":"AUTHORIZED","idempotency_key":"idem-14a852020d544dda89b79a804c7e48a0","description":"","rejection_reason":null,"created_at":"2026-09-28T19:44:23.419540Z","updated_at":"2026-09-28T19:44:23.419542Z"}

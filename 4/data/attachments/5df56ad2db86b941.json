@@ -1,0 +1,11 @@
+{
+  "event_id": "72e6c5e2-c509-4bcb-a72f-581661a8352e",
+  "event_type": "payment.rejected",
+  "payment_id": "pay_cc7fdecd818a4601",
+  "account_id": "ACC-EMPTY-0001",
+  "amount_minor": 900,
+  "currency": "USD",
+  "status": "REJECTED",
+  "occurred_at": "2026-09-28T19:44:24.131838Z",
+  "schema_version": 1
+}

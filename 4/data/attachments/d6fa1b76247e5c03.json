@@ -1,0 +1,1 @@
+{"payment_id":"pay_3d673e8c164141b9","account_id":"ACC-BCD9A5E40B6F","amount_minor":1500,"currency":"TRY","status":"AUTHORIZED","idempotency_key":"idem-dc0f379c1e1041fab9635319b733021b","description":"","rejection_reason":null,"created_at":"2026-09-28T19:44:20.402154Z","updated_at":"2026-09-28T19:44:20.402158Z"}

@@ -1,0 +1,4 @@
+19:44:20 INFO    framework.api.client | POST http://localhost:8000/api/v1/payments
+19:44:20 INFO    framework.api.client | -> 201 in 3 ms
+19:44:20 INFO    framework.api.client | POST http://localhost:8000/api/v1/payments/pay_85c4cb6fdc9d439a/capture
+19:44:20 INFO    framework.api.client | -> 409 in 1 ms

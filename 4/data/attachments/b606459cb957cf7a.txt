@@ -1,0 +1,4 @@
+19:44:21 INFO    framework.kafka_client.consumer | Consumer qa-readonly-4c75bf7b6a97 assigned: [('payments.events', 0)]
+19:44:21 INFO    framework.kafka_client.consumer | Seeked to end of payments.events
+19:44:21 INFO    framework.api.client | POST http://localhost:8000/api/v1/payments
+19:44:21 INFO    framework.api.client | -> 201 in 2 ms
