@@ -93,6 +93,13 @@ jobs:
           ref: gh-pages
           path: gh-pages
 
+      # Only the files are history; the checkout's .git must not travel on.
+      # On the first run gh-pages does not exist yet, the checkout above leaves an
+      # empty repository behind, the report action copies it into allure-history,
+      # and the publish step then fails with "src refspec gh-pages does not match any".
+      - name: Drop git metadata from the previous report
+        run: rm -rf gh-pages/.git
+
       - name: Generate Allure report
         # v1.7 built on openjdk:8-jre-alpine, which Docker Hub no longer serves;
         # v1.15 builds on amazoncorretto from public ECR and bundles Allure 2.44.
