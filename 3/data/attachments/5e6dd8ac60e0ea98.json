@@ -1,0 +1,1 @@
+{"payment_id":"pay_deed42d12db34ffe","account_id":"ACC-89E03B9710FA","amount_minor":3300,"currency":"USD","status":"AUTHORIZED","idempotency_key":"idem-1d2741cc57ec40889549a4e7cbb2f9d8","description":"","rejection_reason":null,"created_at":"2026-09-28T18:12:48.612079Z","updated_at":"2026-09-28T18:12:48.612085Z"}

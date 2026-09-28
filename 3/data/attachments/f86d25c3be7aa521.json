@@ -1,0 +1,1 @@
+{"payment_id":"pay_c0a3f98844f14498","account_id":"ACC-EMPTY-0001","amount_minor":1000,"currency":"USD","status":"REJECTED","idempotency_key":"idem-1d98f4efd5304dabbb37f9ec5fb7cb22","description":"","rejection_reason":"INSUFFICIENT_FUNDS","created_at":"2026-09-28T18:12:45.560844Z","updated_at":"2026-09-28T18:12:45.560849Z"}

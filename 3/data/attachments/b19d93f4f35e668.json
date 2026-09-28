@@ -1,0 +1,11 @@
+{
+  "event_id": "b97937bd-9154-4e23-8896-27d2c9c5d604",
+  "event_type": "payment.created",
+  "payment_id": "pay_c4db77d04aa94f72",
+  "account_id": "ACC-12FA202A593B",
+  "amount_minor": 11000,
+  "currency": "USD",
+  "status": "AUTHORIZED",
+  "occurred_at": "2026-09-28T18:12:47.292182Z",
+  "schema_version": 1
+}

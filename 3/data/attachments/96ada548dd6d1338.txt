@@ -1,0 +1,4 @@
+INFO     framework.kafka_client.consumer:consumer.py:88 Consumer qa-readonly-6ee5c05e469e assigned: [('payments.events', 0)]
+INFO     framework.kafka_client.consumer:consumer.py:105 Seeked to end of payments.events
+INFO     framework.api.client:client.py:82 POST http://localhost:8000/api/v1/payments
+INFO     framework.api.client:client.py:91 -> 201 in 3 ms

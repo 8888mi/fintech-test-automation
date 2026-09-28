@@ -1,0 +1,11 @@
+{
+  "event_id": "e06ca1e0-0da0-4afb-8288-b7c264fea0a0",
+  "event_type": "payment.rejected",
+  "payment_id": "pay_f0d99c8d37d24ceb",
+  "account_id": "ACC-RISK-0001",
+  "amount_minor": 900,
+  "currency": "USD",
+  "status": "REJECTED",
+  "occurred_at": "2026-09-28T18:12:48.776440Z",
+  "schema_version": 1
+}

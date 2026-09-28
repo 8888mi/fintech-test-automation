@@ -1,0 +1,7 @@
+{
+  "account_id": "ACC-RISK-0001",
+  "amount_minor": 900,
+  "currency": "USD",
+  "description": "",
+  "idempotency_key": "idem-793d60ba317748029150f7701030dfa5"
+}

@@ -1,0 +1,1 @@
+{"payment_id":"pay_6e2462e4eb7e4a35","account_id":"ACC-RISK-0001","amount_minor":1000,"currency":"USD","status":"REJECTED","idempotency_key":"idem-a3eaba8476414ef3a452fed97f1e0781","description":"","rejection_reason":"RISK_DECLINED","created_at":"2026-09-28T18:12:45.733221Z","updated_at":"2026-09-28T18:12:45.733228Z"}

@@ -1,0 +1,11 @@
+{
+  "event_id": "6375b808-c962-4d1d-be71-30ea6f52a8af",
+  "event_type": "payment.captured",
+  "payment_id": "pay_94d5f4497f2c4cb9",
+  "account_id": "ACC-E3EDB776A012",
+  "amount_minor": 6400,
+  "currency": "USD",
+  "status": "CAPTURED",
+  "occurred_at": "2026-09-28T18:12:48.643666Z",
+  "schema_version": 1
+}

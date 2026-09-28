@@ -1,0 +1,6 @@
+INFO     framework.api.client:client.py:82 POST http://localhost:8000/api/v1/payments
+INFO     framework.api.client:client.py:91 -> 201 in 17 ms
+INFO     framework.api.client:client.py:82 POST http://localhost:8000/api/v1/payments
+INFO     framework.api.client:client.py:91 -> 200 in 5 ms
+INFO     framework.api.client:client.py:82 GET http://localhost:8000/api/v1/accounts/ACC-AE4529B3BF71/payments
+INFO     framework.api.client:client.py:91 -> 200 in 5 ms

@@ -1,0 +1,2 @@
+18:12:45 INFO    framework.api.client | POST http://localhost:8000/api/v1/payments
+18:12:45 INFO    framework.api.client | -> 422 in 1 ms

@@ -1,0 +1,1 @@
+{"payment_id":"pay_6ad8a7d5264b4abe","account_id":"ACC-7861BCBF0628","amount_minor":1000000,"currency":"USD","status":"AUTHORIZED","idempotency_key":"idem-0de5e6bee08b48f68ecc365117e74a4e","description":"","rejection_reason":null,"created_at":"2026-09-28T18:12:45.605254Z","updated_at":"2026-09-28T18:12:45.605261Z"}

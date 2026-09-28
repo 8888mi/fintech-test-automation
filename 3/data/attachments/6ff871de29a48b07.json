@@ -1,0 +1,1 @@
+{"payment_id":"pay_04b7d6931b62474b","account_id":"ACC-A1251E74DCE9","amount_minor":1500,"currency":"GBP","status":"AUTHORIZED","idempotency_key":"idem-83072729ea8742cda78c5df2fe113476","description":"","rejection_reason":null,"created_at":"2026-09-28T18:12:45.519198Z","updated_at":"2026-09-28T18:12:45.519206Z"}

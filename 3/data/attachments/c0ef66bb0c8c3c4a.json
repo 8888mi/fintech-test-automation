@@ -1,0 +1,1 @@
+{"payment_id":"pay_4aa29480c5c04907","account_id":"ACC-45DDD205DCAC","amount_minor":1500,"currency":"EUR","status":"AUTHORIZED","idempotency_key":"idem-40494c9342344892b90542ddaec5ce06","description":"","rejection_reason":null,"created_at":"2026-09-28T18:12:45.520134Z","updated_at":"2026-09-28T18:12:45.520136Z"}

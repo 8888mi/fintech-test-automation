@@ -1,0 +1,7 @@
+{
+  "account_id": "ACC-EMPTY-0001",
+  "amount_minor": 1000,
+  "currency": "USD",
+  "description": "",
+  "idempotency_key": "idem-1d98f4efd5304dabbb37f9ec5fb7cb22"
+}

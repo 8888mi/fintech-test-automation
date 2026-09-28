@@ -1,0 +1,7 @@
+{
+  "account_id": "ACC-5DE769603E2B",
+  "amount_minor": 1000,
+  "currency": "XXX",
+  "description": "",
+  "idempotency_key": "idem-dcbe002ea7584d59bdcebb92e7daa79c"
+}

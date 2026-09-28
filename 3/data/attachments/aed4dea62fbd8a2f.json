@@ -1,0 +1,1 @@
+{"detail":[{"type":"string_too_long","loc":["body","idempotency_key"],"msg":"String should have at most 128 characters","input":"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx","ctx":{"max_length":128}}]}
