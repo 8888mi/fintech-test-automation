@@ -1,0 +1,5 @@
+# Normalise line endings in the repository; check out native endings per platform.
+* text=auto
+
+# cmd.exe misparses labels and goto in LF-only batch files.
+*.bat text eol=crlf

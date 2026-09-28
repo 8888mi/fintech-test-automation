@@ -1,0 +1,37 @@
+# The payments image needs demo_service/ and nothing else, but the compose
+# build context is the whole repository. Everything listed here is excluded
+# from what gets shipped to the daemon on every `docker compose build`.
+
+# Version control and editors
+.git
+.gitignore
+.github
+.idea
+.vscode
+.claude
+
+# Python bytecode and virtualenvs
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Tool caches - .mypy_cache alone is larger than the rest of the repo
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/
+
+# Test output, regenerated on every run
+allure-results/
+allure-report/
+test-results/
+docker-logs.txt
+
+# Local configuration. Never bake a real .env into an image; the service
+# reads KAFKA_BOOTSTRAP_SERVERS / PAYMENTS_TOPIC from compose instead.
+.env
+
+# Docs and the test framework itself - not part of the service under test
+docs/
+README.md
+docker-compose.yml

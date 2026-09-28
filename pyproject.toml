@@ -1,0 +1,65 @@
+[tool.poetry]
+name = "fintech-test-automation"
+version = "1.0.0"
+description = "API, Kafka and UI test automation framework for payment systems"
+authors = ["alesorokin <alecsey.m.sorokin@gmail.com>"]
+readme = "README.md"
+packages = [
+    { include = "framework", from = "src" },
+    { include = "demo_service" },
+]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.32"
+pydantic = "^2.9"
+pydantic-settings = "^2.6"
+confluent-kafka = "^2.6"
+playwright = "^1.48"
+fastapi = "^0.115"
+uvicorn = { extras = ["standard"], version = "^0.32" }
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3"
+pytest-playwright = "^0.5"
+pytest-xdist = "^3.6"
+pytest-rerunfailures = "^14.0"
+allure-pytest = "^2.13"
+ruff = "^0.7"
+mypy = "^1.13"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.pytest.ini_options]
+pythonpath = ["src", "."]
+testpaths = ["tests"]
+addopts = [
+    "-ra",
+    "--strict-markers",
+    "--alluredir=allure-results",
+    "--clean-alluredir",
+    "--tb=short",
+]
+markers = [
+    "smoke: minimal set that must pass before anything else runs",
+    "api: HTTP-level tests, no browser, no broker",
+    "integration: crosses a process boundary (Kafka)",
+    "ui: requires a browser",
+]
+log_cli = true
+log_cli_level = "INFO"
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "SIM", "RUF"]
+
+[tool.mypy]
+python_version = "3.11"
+warn_return_any = true
+warn_unused_configs = true
+ignore_missing_imports = true

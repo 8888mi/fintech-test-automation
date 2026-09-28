@@ -1,0 +1,23 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.pytest_cache/
+allure-results/
+allure-report/
+test-results/
+.mypy_cache/
+.ruff_cache/
+.claude
+
+
+# IDE settings are per developer (workspace.xml holds local paths and run history)
+.idea/
+.vscode/
+
+# CI writes this on failure; locally it is just noise
+docker-logs.txt
+
+# Packaging output
+dist/
+*.egg-info/
