@@ -94,7 +94,9 @@ jobs:
           path: gh-pages
 
       - name: Generate Allure report
-        uses: simple-elf/allure-report-action@v1.7
+        # v1.7 built on openjdk:8-jre-alpine, which Docker Hub no longer serves;
+        # v1.15 builds on amazoncorretto from public ECR and bundles Allure 2.44.
+        uses: simple-elf/allure-report-action@v1.15
         with:
           allure_results: artifacts/allure-results
           allure_history: allure-history
