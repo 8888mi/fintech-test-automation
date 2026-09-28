@@ -14,7 +14,7 @@ make install && make up && make test
 Three commands, and the whole environment — Kafka broker, service under test, browser —
 comes up and the suite runs. No manual setup, no "ask me for the credentials".
 
-[![tests](https://github.com/<user>/<repo>/actions/workflows/tests.yml/badge.svg)](https://github.com/<user>/<repo>/actions/workflows/tests.yml)
+[![tests](https://github.com/8888mi/fintech-test-automation/actions/workflows/tests.yml/badge.svg)](https://github.com/8888mi/fintech-test-automation/actions/workflows/tests.yml)
 
 ---
 
@@ -352,8 +352,8 @@ does it — and turning those into a report is the separate, manual `allure serv
 The `publish-report` job uploads `allure-results` as an artifact, merges it with the history
 kept on the `gh-pages` branch, and pushes the built report back there. It is gated on
 `github.ref == 'refs/heads/main'`, so it needs the project to be a GitHub repository with
-Pages enabled and its source set to the `gh-pages` branch — and the `<user>/<repo>`
-placeholders in the badge above filled in.
+Pages enabled and its source set to the `gh-pages` branch. The published report lives at
+https://8888mi.github.io/fintech-test-automation/.
 
 ---
 

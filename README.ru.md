@@ -14,7 +14,7 @@ make install && make up && make test
 Три команды — и всё окружение (брокер Kafka, тестируемый сервис, браузер) поднимается, а
 набор тестов отрабатывает. Без ручной настройки и без «спроси у меня креды».
 
-[![tests](https://github.com/<user>/<repo>/actions/workflows/tests.yml/badge.svg)](https://github.com/<user>/<repo>/actions/workflows/tests.yml)
+[![tests](https://github.com/8888mi/fintech-test-automation/actions/workflows/tests.yml/badge.svg)](https://github.com/8888mi/fintech-test-automation/actions/workflows/tests.yml)
 
 ---
 
@@ -356,7 +356,7 @@ Git Bash.
 артефактом, сливает его с историей, хранящейся в ветке `gh-pages`, и пушит собранный отчёт
 обратно туда же. Она ограничена условием `github.ref == 'refs/heads/main'`, так что для работы
 нужен репозиторий на GitHub с включённым Pages, у которого источником указана ветка
-`gh-pages`, — и заполненные плейсхолдеры `<user>/<repo>` в бейдже выше.
+`gh-pages`. Опубликованный отчёт: https://8888mi.github.io/fintech-test-automation/.
 
 ---
 
